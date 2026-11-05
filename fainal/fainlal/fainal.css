@@ -1,0 +1,419 @@
+body {
+    background-color: black;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: 22282a;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+}
+
+span {
+    color: orangered;
+}
+
+p {
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}
+
+nav {
+    padding-top: 2.2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+
+nav ul li a:hover {
+    color: coral;
+}
+
+.btn {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.8rem 1.87rem;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid orangered;
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.8rem 1.87rem;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: 0.4s;
+    margin-right: 10rem;
+    border: 2px solid white;
+
+}
+
+
+.content {
+    flex-grow: 1;
+    padding: 0 var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont-text {
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    margin: 7rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.social {
+    margin-top: 3.5rem;
+}
+
+.social img {
+    margin-right: 2rem;
+    width: 2.5rem;
+    transition: 0.4s;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
+
+.home .cont-img {
+    width: 45%;
+    height: 90%;
+    position: relative;
+    align-self: flex-end;
+}
+
+.home .cont-img img {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    transform: translateX(-25%);
+}
+
+.home .cont-img :hover .shape {
+    bottom: 40px;
+}
+
+.about {
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .cont-img {
+    width: 100%;
+    margin: 6rem;
+    margin-bottom: -4%;
+}
+
+.about .cont-img img {
+    width: 100%;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    filter: grayscale(100%);
+
+}
+
+.about .cont-text {
+    width: 140%;
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    margin-left: -3rem;
+    margin-bottom: 12rem;
+}
+
+.services {
+    background-color: black;
+    padding: 2rem var(--padding);
+}
+
+.text-conter {
+    text-align: center;
+}
+
+.card img {
+    width: 97%;
+}
+
+.text {
+    text-align: center;
+
+}
+
+.cad {
+    background: rgba(0, 0, 0, 0.934)url(bb.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 450px;
+}
+
+.lol {
+    width: 100%;
+}
+
+
+.cad1 {
+    background: rgba(0, 0, 0, 0.726)url(bo.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    justify-content: center;
+}
+
+.card9 {
+
+    display: inline-flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    width: 10%;
+    background-color: #121212;
+    margin: 2%;
+    margin-top: 10%;
+}
+
+.card9 div {
+    padding-right: 3%;
+    width: 400%;
+}
+
+
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+
+
+.card {
+    width: 20%;
+    background-color: rgba(20, 19, 19, 0.979);
+    border-radius: 20px;
+    display: inline;
+    margin: 2%;
+}
+
+.card p {
+    display: inline;
+}
+
+.card1 {
+    width: 25%;
+    background-color: orangered;
+    border-radius: 20px;
+}
+
+.card1 p {
+    display: inline;
+    margin-top: 5rem;
+
+}
+
+.card1 img {
+    width: 25%;
+    border-radius: 50%;
+    display: inline;
+}
+
+.card2 p {
+    margin-top: 2%;
+
+}
+
+.card2 {
+    width: 25%;
+    background-color: rgba(26, 24, 24, 0.671);
+    border-radius: 20px;
+}
+
+.card2 p span {
+    color: #fff;
+    position: relative;
+    top: -35px;
+}
+
+.card2 img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.ad {
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #FF4900;
+    border-radius: 20px;
+    color: white;
+    width: 20%;
+    height: 55px;
+}
+
+
+
+
+.s7 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.ar11 {
+    width: 35%;
+    margin: 10px;
+    padding: 15px;
+
+}
+
+.ar11 h4 {
+    font-size: 30px;
+    margin: 15px;
+    width: 60%;
+}
+
+.ar11 p {
+    margin: 15px;
+    width: 60%;
+    color: rgb(81, 81, 81);
+}
+
+.ar11 a {
+    margin: 10px;
+    display: inline-block;
+}
+
+.ar12 {
+    width: 60%;
+}
+
+.form {
+    text-align: left;
+}
+
+.typ {
+    width: 40%;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #333333;
+    background-color: black;
+    color: silver;
+
+}
+
+textarea {
+    background-color: black;
+    color: silver;
+    width: 83%;
+    margin: 10px;
+    padding: 5px;
+    resize: none;
+    height: 100px;
+    border-radius: 1 0px;
+    border: 2px solid #333333;
+
+}
+
+.form label {
+    width: 40%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.form button {
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #FF4900;
+    border-radius: 20px;
+    color: white;
+    width: 20%;
+    height: 55px;
+}
+
+.lol {
+    display: inline-block;
+    width: 30px;
+    padding: 5px;
+    border: 2px solid rgb(65, 65, 65);
+    border-radius: 20px;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+}
+
+footer div {
+    background-color: #FF4900;
+    display: inline-block;
+    padding: 10px;
+    width: 30%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 5px;
+    margin: 0px;
+}
+
+footer div img {
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 25px;
+}
